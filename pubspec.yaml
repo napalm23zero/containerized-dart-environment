@@ -1,0 +1,14 @@
+name: containerized_dart
+description: You can develop and debug inside a container with no need to install anything on your local machine but docker and VSCode.
+version: 0.0.1
+author: Rodrigo Dantas <rodrigodantas.91@gmail.cpom>
+
+environment:
+  sdk: ">=2.0.0 <3.0.0"
+
+dependencies:
+  angel_mongo: ^2.0.0
+
+dev_dependencies:
+  test: ^1.0.0
+  aqueduct_test: ^1.0.0
